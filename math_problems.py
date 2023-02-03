@@ -26,3 +26,13 @@ def calculate_change():
     change = money - expense
     print(f'You have ${money:.2f} and you\'re spending ${expense:.2f}. Your change is {change:.2f}.') 
                 
+def percentage_increase():
+    original_price = float(input('Inform the price: '))
+    discount_value = original_price * 0.6
+    price_with_discount = original_price - discount_value
+    print(f'The original price was {original_price}. The price with 20% discount is {price_with_discount}.')
+    percentage_increase = (original_price * 100)/price_with_discount
+    print(f'You will increase {percentage_increase - 100} % to raise {price_with_discount} to {original_price}.')
+
+percentage_increase()
+    
