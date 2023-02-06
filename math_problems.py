@@ -34,5 +34,3 @@ def percentage_increase():
     percentage_increase = (original_price * 100)/price_with_discount
     print(f'You will increase {percentage_increase - 100} % to raise {price_with_discount} to {original_price}.')
 
-percentage_increase()
-    
